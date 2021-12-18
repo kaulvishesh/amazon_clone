@@ -1,0 +1,16 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(rgb(189, 189, 252),rgb(169, 240, 169));
+    height:max-content;
+    justify-content: space-between;
+}
+
+.checkout__Title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(160, 153, 153);
+}
+.checkout__Left{
+    flex: 1;
+}

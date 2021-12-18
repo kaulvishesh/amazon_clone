@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background: linear-gradient(rgb(247, 161, 62),rgb(95, 196, 236));
+}
+.home__Image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(0, 0, 0, 0));
+}
+.home__Row{
+    
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home__Row:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s ease;
+}
